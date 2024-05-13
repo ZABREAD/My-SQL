@@ -1,0 +1,22 @@
+Insert Into BaconFamily
+Values
+('Bingus','Bingus','spingus','1980-04-17','shaboingery','Throwing Rats','1987-04-16'),
+('Roger','John','Smith','2000-01-01','Public Intoxication','Drunk Driving','2012-10-04'),
+('Reo','Da','Young OG','1978-03-18','Selling Lean','Mix Master / Potion Brewer','2016-03-18'),
+('P','Bacon','Christopher','1632-04-01','Tax Evasion','Immortality','1772-12-31'),
+('Wison','Fern','Wison','2000-05-01','Robbing a bank to pay for a hot pocket','State Capital Mastery','2000-05-02'),
+('Genghis Ron','Microwave','Bobbert','2005-03-25','Indecent exposure','Tax Abidance','2005-03-25'),
+('1629 South Main Street','Mazerov','Matthew','2005-03-25','Indecent Exposure','Tax Abidance','2005-03-25'),
+('Perkulator','Perkins','Dan','2005-05-01','Racketeering','Pyramid Schemes','1987-06-21'),
+('The Tingler','Tingley','Asbestos','2001--09-10','He tingled someone','Tingling','2001-09-11'),
+('Jeans','Bones','McGee','1912-04-12','Mass Genocide','Shrinking and hiding things in food','1984-04-16'),
+('Terrence','Gambino','Carlo','1902-08-24','Phoned too many friends', 'Aggravating Ghosts','2001-09-11'),
+('Sauron','Kennedy','Jeff','0347-04-14','Killing JFK','Assassinating Presidents','2017-04-14'),
+('The Mask','Matrix','Seen','1525-11-24','Identity Fraud','Master of disguise','1775-02-16'),
+('Tetradontide','Magoo','Mister','1912-04-14','Accidental Mass Homicide','Cartoon Goofiness','1916-11-21'),
+('Jesus','Monroe','Blair','1745-04-27','Pretending to be ghost','Admitting to be guilty','2011-04-27'),
+('Peeky Blinder','Shelby','Thomas','1890-01-24','Mob Affiliation','Charismatic','1890-01-24'),
+('Young Sheldon','Shawell','Mark','901-12-02','Robbing a Walmart','Parallel Parking','1962-03-13'),
+('Yippee','Crassus','Linepitema','2023-10-23','Grand Larceny','Hoarding','2023-11-01'),
+('Fat Jack Doberty','Colgate','Manson','2024-04-04','Purposeful Arsonist','Pyro','2024-04-04'),
+('EDP445','Morland','Bryant','1990-12-15','Eating premature cupcakes','Eating cupcakes','2021-04-12')

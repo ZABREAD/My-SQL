@@ -1,0 +1,57 @@
+Create Database JACPM
+
+Create Table FavoriteGames(
+Gamertag varchar(30),
+GameName varchar(25),
+GamePrice float(5,2),
+DeveloperName varchar(35),
+AmountSold int,
+Genre varchar(20)
+)
+
+Insert into FavoriteGames
+values
+('Mufelon3320','Skyrim',60.00,'Bethesda',62000000,'RPG'),
+('MagicMop','Sky',0,'ThatGameCompany',260000000,'SpecialAdventure'),
+('VioletSteak2669','Terraria',9.99,'Rellogic',44500000,'Sandbox RPG'),
+('Wonter','Minecraft',29.99,'Mojang',30000000,'Sandbox'),
+('GaurdedEvelyn','Stalker SOC',19.99,'GSC Gameworld',2000000,'FPS'),
+('MossSpaghetti','Rainbow Six Seige',19.99,'Ubisoft',10000000,'FPS'),
+('CronoJN','BaldersGate',9.99,'Larian Games',10000000,'Adventure RPG'),
+('UnionizingUnicorns','Borderlands 2',19.99,'GearBox',26000000,'Looter Shooter'),
+('EeveeEthan','Minecraft',29.99,'Mojang',300000000,'Sandbox'),
+('J4d3_Un1Bl433612','Geometry Dash',3.99,'Robtop',450000,'Side scrolling'),
+('Grisall','Town Of Salem',4.99,'BlankMediaGames',178000,'Murder Mystery'),
+('A_Dude1919','Portal 2',9.99,'Valve',4000000,'Puzzle Platformer'),
+('PizzaBoyDraven','League Of Legends',0,'Riot Games',180000000,'MOBA'),
+('Pman','Yakuza 7',59.99,'SEGA',1800000,'Turn Based RPG'),
+('NateDeGamer','MarioMaker 2',59.99,'Nintendo',10000000,'Sandbox Platformer'),
+('SkyAgh','Splosionman',14.99,'Twister Pixel Games',487000,'Platformer'), 
+('BenjaminBoomshuckle','Minecraft',29.99,'mojang',300000000,'Sandbox'), 
+('7150_0517','Persona 3 Reload',69.99,'Atlas',4000000,'JRPG'),
+('SnubCartoon8074','Splatoon',69.99,'Nintendo',11720000,'3rdPerson Shooter'),
+('K4g4y4m13','Pokemon Black 2',99.99,'Nintendo',6500000,'RPG'),
+('tiyqn','Call of Duty Black Ops 3',60.00,'Activision',26700000,'FPS'),
+('SmittyMerbenYagermanJenson','Postal 2',9.99,'Running With Scissors',5000000,'FPS'),
+('dan perkins lover','Worm WMD',29.99,'TeamSevenTeen',1000000,'Turn Based Strategy'),
+('Ash$','BabySitting Moma',14.99,'Office Create',1200000,'Simulation'),
+('KT','Rust',39.99,'Facepunch Games',16000000,'Survival'),
+
+SELECT 
+DeveloperName,
+GameName
+FROM FavoriteGames
+ORDER BY GameName
+
+SELECT 
+GamePrice,
+AmountSold
+FROM FavoriteGames
+ORDER BY GamePrice 
+
+SELECT 
+GameName,
+DeveloperName,
+GamePrice
+FROM FavoriteGames
+ORDER BY GamePrice 

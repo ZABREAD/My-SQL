@@ -1,0 +1,47 @@
+CREATE TABLE store (
+grocery_type TEXT,
+category_type TEXT,
+product TEXT,
+unit_cost decimal,
+update_date timestamp
+);
+
+create table grocery_list (
+date TEXT, 
+item_name TEXT, 
+item_category TEXT,
+item_cost decimal
+);
+
+INSERT INTO store VALUES ('Produce', 'Fruit', 'Apple', 1.99, '2023-03-20 14:12:29');
+INSERT INTO store VALUES ('Produce', 'Fruit', 'Apple', 2.05, '2023-04-05 7:01:57');
+INSERT INTO store VALUES ('Produce', 'Vegetable', 'Onion', 1.75, '2023-03-20 19:33:35');
+INSERT INTO store VALUES ('Produce', 'Fruit', 'Orange', 5.21, '2023-03-20 20:40:37');
+INSERT INTO store VALUES ('Produce', 'Vegetable', 'Onion', 3.24, '2023-03-20 7:00:22');
+INSERT INTO store VALUES ('Produce', 'Vegetable', 'Onion', 4.24, '2023-03-20 14:12:55');
+INSERT INTO store VALUES ('Fish', 'Marine', 'Tuna', 5.00, '2023-02-18 23:00:40');
+INSERT INTO store VALUES ('Fish', 'Marine', 'Salmon', 4.82, '2023-01-21 23:11:05');
+INSERT INTO store VALUES ('Fish', 'Freshwater', 'Trout', 4.00, '2023-03-28');
+INSERT INTO store VALUES ('Fish', 'Marine', 'Salmon', 9.71, '2023-03-27 20:36:28');
+
+insert into grocery_list values("2020-12-03", "Hamburger patties", "Meat and Fish", "14.03");
+insert into grocery_list values("2020-12-03", "Chips", "Pantry", "2.50");
+insert into grocery_list values("2020-12-03", "Avocado", "Fruits and Vegetables", "1.70");
+insert into grocery_list values("2020-12-03", "Lime", "Fruits and Vegetables", "0.30");
+insert into grocery_list values("2020-12-03", "Tomato", "Fruits and Vegetables", "1.99");
+insert into grocery_list values("2020-12-15", "Rice cakes", "Pantry", "3.80");
+insert into grocery_list values("2020-12-15", "Graham crackers", "Pantry", "12.99");
+insert into grocery_list values("2020-12-15", "Flour", "Pantry", "4.00");
+insert into grocery_list values("2020-12-15", "Yeast", "Pantry", "11.13");
+insert into grocery_list values("2020-12-15", "Popcorn", "Pantry", "9.30")
+
+select * from store
+select * from grocery_list
+
+SELECT 
+sum(item_cost)
+from grocery_list 
+
+SELECT 
+sum(unit_cost)
+from store

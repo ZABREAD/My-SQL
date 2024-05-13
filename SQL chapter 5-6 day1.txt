@@ -1,0 +1,26 @@
+Create Database RetailStore
+
+Create Table Retail (
+ItemName varchar(20),
+QuantityOnHand varchar(5),
+QuantitySold varchar(10),
+CostPerItem varchar(10),
+TotalSales varchar(10),
+);
+
+Insert Into Retail
+Values
+('bread', '20000', '3', '$200', '6000'),
+('butter', '18000', '2', '$8000', '9000'),
+('cow', '4', '2', '$90000', '25'),
+('steak', '10000', '100', '$2000', '300'),
+('toaster', '90000', '900000', '$2', '10000000');
+
+SELECT * from retail
+ORDER BY ItemName asc;
+
+SELECT * from retail
+ORDER BY TotalSales DESC;
+
+SELECT * from retail
+WHERE ItemName Like %cow%;
